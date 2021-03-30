@@ -1,0 +1,26 @@
+
+<h1>Home</h1>
+<p>Hello <%= @email %>% </p>
+
+<% if user_signed_in? %>
+    <% if current_user.restaurante? %>
+        <p>Seus produtos, <%= current_user.restaurante.name %></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>nome</th>
+                    <th>valor</th>
+                </th>
+            </thead>
+
+            <tbody>
+                <% current_user.restaurante.products.each do |product| %> 
+                    <tr>
+                        <th>product.name</th>
+                        <th>product.value</th>
+                    </th>
+                <%end%>
+            </tbody>
+        </table>
+    <%end%>
+<%end%>
