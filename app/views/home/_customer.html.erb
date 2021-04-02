@@ -1,0 +1,35 @@
+<p>Restaurantes</p>
+<table>
+            <thead>
+                <tr>
+                    <th>nome</th>
+                </th>
+            </thead>
+
+            <tbody>
+                <% Restaurante.all.each do |r| %> 
+                    <tr>
+                        <td><% r.name %></td>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Produto</th>
+                                </th>
+                            </thead>
+                            <tbody>
+                                <% r.products.each do |p|%>
+                                    <tr>
+                                        <%=form_tag('/orders') do%>
+                                            <%= hidden_field_tag :product_id, p.id %>
+                                            <td>-<% p.name %></td>
+                                            <td>--<% p.value %></td>
+                                            <td><%= submit_tag 'Pedir'%></td>
+                                        <%end%>    
+                                    </tr>
+                                <%end%>
+                            </tbody>
+                        </table>
+                    </th>
+                <%end%>
+            </tbody>
+        </table>
