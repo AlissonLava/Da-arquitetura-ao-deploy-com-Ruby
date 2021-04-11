@@ -1,24 +1,8 @@
-# README
+# Introdução
+Este projeto é parte do curso **"Da arquitetura ao deploy com Ruby"** foi produzido pelo engenheiro de software Felipe Pelizaro, das atividades que fazem parte do **Bootcamp: Impulso FullStack Developer** que está disponível pela plataforma da **Digital Inovation One**(DIO).
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Breve Descrição do Projeto
+O programa permite que um **Usuário** faça um **Pedido** que o permite a escolher vários **Produtos** de um dos **Restaurantes**.
+É possivel fazer cadastro e edição de Usuários e Restaurantes, também como criar os Produtos para o Restaurante em questão. Também foram definidos Testes dos diversos tipos em várias telas da aplicação.
