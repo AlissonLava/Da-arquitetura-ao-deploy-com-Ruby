@@ -1,5 +1,5 @@
 # Introdução
-Este projeto é parte do curso **"Da arquitetura ao deploy com Ruby"** foi produzido pelo engenheiro de software Felipe Pelizaro, das atividades que fazem parte do **Bootcamp: Impulso FullStack Developer** que está disponível pela plataforma da **Digital Inovation One**(DIO).
+Este projeto é parte do curso **"Da arquitetura ao deploy com Ruby"**, que foi produzido pelo engenheiro de software Felipe Pelizaro. Este curso faz parte do **Bootcamp: Impulso FullStack Developer** que está disponível pela plataforma da **Digital Inovation One**(DIO).
 
 
 
